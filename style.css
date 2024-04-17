@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative; /* 保留相对定位 */
+    background-color: moccasin; /* 替换为你想要的背景颜色值 */
+}
+
+header {
+    background-color: rosybrown;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    margin-bottom: 100px; /* 增加底部间距 */
+}
+
+footer {
+    background-color: rosybrown;
+    color: white;
+    padding: 10px;
+    position: fixed; /* 将定位方式改为固定定位 */
+    bottom: 0; /* 将页脚定位在页面底部 */
+    width: 100%;
+    text-align: center;
+    z-index: 999;
+}
+
